@@ -43,7 +43,7 @@ This software contains:
 
 **DO NOT** create public GitHub issues for security vulnerabilities.
 
-Instead, please email: **[YOUR-SECURITY-EMAIL@example.com]**
+Instead, please email: **kaspednekar@gmail.com**
 
 Include:
 - Description of the potential vulnerability
@@ -72,9 +72,7 @@ If you have legitimate access to this software:
 
 ### Contact Information
 
-**Legal Department**: [YOUR-LEGAL-EMAIL@example.com]  
-**Security Team**: [YOUR-SECURITY-EMAIL@example.com]  
-**General Inquiries**: [YOUR-EMAIL@example.com]
+**General Inquiries**: kaspednekar@gmail.com
 
 ---
 

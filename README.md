@@ -25,7 +25,7 @@ This software contains **proprietary algorithms** and **trade secrets** owned by
 - ❌ **No commercial use without license**
 - ✅ **Demo viewing only**
 
-For licensing inquiries: **[YOUR-EMAIL@example.com]**
+For licensing inquiries: **kaspednekar@gmail.com**
 
 ## ✨ Features
 
@@ -236,7 +236,7 @@ This software is **NOT open source**. All rights reserved.
 - **Evaluation License**: 30-day trial
 - **Custom License**: Tailored agreements
 
-Contact **[YOUR-EMAIL@example.com]** for licensing.
+Contact **[kaspednekar@gmail.com** for licensing.
 
 ## 🔍 Monitoring & Compliance
 
@@ -255,22 +255,11 @@ Violations will result in:
 ## 📞 Contact & Support
 
 ### Business Inquiries
-- **Email**: [YOUR-EMAIL@example.com]
-- **Phone**: [YOUR-PHONE-NUMBER]
-- **Website**: [YOUR-WEBSITE]
-
-### Legal Department
-- **Email**: [YOUR-LEGAL-EMAIL@example.com]
-- **Address**: [YOUR-ADDRESS]
-
-### Security Issues
-- **Email**: [YOUR-SECURITY-EMAIL@example.com]
-- **PGP Key**: Available on request
+- **Email**: kaspednekar@gmail.com
 
 ### Technical Support
-- **Email**: [YOUR-SUPPORT-EMAIL@example.com]
 - **Documentation**: [Wiki](https://github.com/1violett/sb1-1am4lujt/wiki)
-- **Status Page**: [YOUR-STATUS-PAGE]
+
 
 ---
 

@@ -4,15 +4,19 @@ import { ForecastingPanel } from './components/ForecastingPanel';
 import { RecommendationPanel } from './components/RecommendationPanel';
 import { InventoryDashboard } from './components/InventoryDashboard';
 import { ProductAnalysis } from './components/ProductAnalysis';
+import { GeoAIPanel } from './components/GeoAIPanel';
+import { AIRecommendationPanel } from './components/AIRecommendationPanel';
 import { sampleUsers, sampleItems, sampleRatings, sampleInventoryData } from './data/sampleData';
-import { TrendingUp, Users, Package, BarChart3 } from 'lucide-react';
+import { TrendingUp, Users, Package, BarChart3, Globe, Brain } from 'lucide-react';
 
 function App() {
-  const [activeTab, setActiveTab] = useState<'forecasting' | 'recommendations' | 'inventory' | 'analysis'>('forecasting');
+  const [activeTab, setActiveTab] = useState<'forecasting' | 'recommendations' | 'inventory' | 'analysis' | 'geoai' | 'ai-recs'>('geoai');
   const [forecastData, setForecastData] = useState<number[]>([]);
   const [selectedUserId, setSelectedUserId] = useState(sampleUsers[0]?.id || '');
 
   const tabs = [
+    { id: 'geoai', label: 'GeoAI Analytics', icon: Globe },
+    { id: 'ai-recs', label: 'AI Recommendations', icon: Brain },
     { id: 'forecasting', label: 'Demand Forecasting', icon: TrendingUp },
     { id: 'recommendations', label: 'Recommendations', icon: Users },
     { id: 'inventory', label: 'Inventory Management', icon: Package },
@@ -28,8 +32,22 @@ function App() {
             ReZone Analytics
           </h1>
           <p className="text-lg text-gray-600">
-            Advanced Recommendation & Forecasting System
+            Advanced GeoAI & Transformer-Powered Recommendation System
           </p>
+          <div className="mt-4 flex items-center justify-center space-x-4 text-sm text-gray-500">
+            <div className="flex items-center space-x-1">
+              <Globe className="w-4 h-4" />
+              <span>Location Intelligence</span>
+            </div>
+            <div className="flex items-center space-x-1">
+              <Brain className="w-4 h-4" />
+              <span>AI-Powered</span>
+            </div>
+            <div className="flex items-center space-x-1">
+              <TrendingUp className="w-4 h-4" />
+              <span>Real-time Analytics</span>
+            </div>
+          </div>
         </div>
 
         {/* Navigation Tabs */}
@@ -42,14 +60,14 @@ function App() {
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`flex items-center space-x-2 px-6 py-3 rounded-lg transition-all duration-200 ${
+                    className={`flex items-center space-x-2 px-4 py-3 rounded-lg transition-all duration-200 ${
                       activeTab === tab.id
                         ? 'bg-blue-500 text-white shadow-md'
                         : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
                     }`}
                   >
                     <Icon className="w-5 h-5" />
-                    <span className="font-medium">{tab.label}</span>
+                    <span className="font-medium text-sm">{tab.label}</span>
                   </button>
                 );
               })}
@@ -57,8 +75,46 @@ function App() {
           </div>
         </div>
 
+        {/* User Selection */}
+        {(activeTab === 'recommendations' || activeTab === 'geoai' || activeTab === 'ai-recs') && (
+          <div className="max-w-md mx-auto mb-6">
+            <div className="bg-white rounded-xl p-4 shadow-lg border border-gray-200">
+              <label className="block text-sm font-medium text-gray-700 mb-2">Select User</label>
+              <select
+                value={selectedUserId}
+                onChange={(e) => setSelectedUserId(e.target.value)}
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              >
+                {sampleUsers.map((user) => (
+                  <option key={user.id} value={user.id}>
+                    {user.name} - {user.demographics?.location || 'Unknown Location'}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+        )}
+
         {/* Content */}
         <div className="max-w-7xl mx-auto">
+          {activeTab === 'geoai' && (
+            <GeoAIPanel
+              users={sampleUsers}
+              items={sampleItems}
+              ratings={sampleRatings}
+              selectedUserId={selectedUserId}
+            />
+          )}
+
+          {activeTab === 'ai-recs' && (
+            <AIRecommendationPanel
+              users={sampleUsers}
+              items={sampleItems}
+              ratings={sampleRatings}
+              selectedUserId={selectedUserId}
+            />
+          )}
+
           {activeTab === 'forecasting' && (
             <div className="space-y-6">
               <DataUploader onDataLoaded={setForecastData} />
@@ -69,28 +125,12 @@ function App() {
           )}
 
           {activeTab === 'recommendations' && (
-            <div className="space-y-6">
-              <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-200">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">Select User</h3>
-                <select
-                  value={selectedUserId}
-                  onChange={(e) => setSelectedUserId(e.target.value)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  {sampleUsers.map((user) => (
-                    <option key={user.id} value={user.id}>
-                      {user.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <RecommendationPanel
-                users={sampleUsers}
-                items={sampleItems}
-                ratings={sampleRatings}
-                selectedUserId={selectedUserId}
-              />
-            </div>
+            <RecommendationPanel
+              users={sampleUsers}
+              items={sampleItems}
+              ratings={sampleRatings}
+              selectedUserId={selectedUserId}
+            />
           )}
 
           {activeTab === 'inventory' && (

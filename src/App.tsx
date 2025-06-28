@@ -4,7 +4,7 @@ import { ForecastingPanel } from './components/ForecastingPanel';
 import { RecommendationPanel } from './components/RecommendationPanel';
 import { InventoryDashboard } from './components/InventoryDashboard';
 import { ProductAnalysis } from './components/ProductAnalysis';
-import { GeoAIPanel } from './components/GeoAIPanel';
+import { EnhancedGeoAIPanel } from './components/EnhancedGeoAIPanel';
 import { AIRecommendationPanel } from './components/AIRecommendationPanel';
 import { sampleUsers, sampleItems, sampleRatings, sampleInventoryData } from './data/sampleData';
 import { TrendingUp, Users, Package, BarChart3, Globe, Brain } from 'lucide-react';
@@ -76,7 +76,7 @@ function App() {
         </div>
 
         {/* User Selection */}
-        {(activeTab === 'recommendations' || activeTab === 'geoai' || activeTab === 'ai-recs') && (
+        {(activeTab === 'recommendations' || activeTab === 'ai-recs') && (
           <div className="max-w-md mx-auto mb-6">
             <div className="bg-white rounded-xl p-4 shadow-lg border border-gray-200">
               <label className="block text-sm font-medium text-gray-700 mb-2">Select User</label>
@@ -98,7 +98,7 @@ function App() {
         {/* Content */}
         <div className="max-w-7xl mx-auto">
           {activeTab === 'geoai' && (
-            <GeoAIPanel
+            <EnhancedGeoAIPanel
               users={sampleUsers}
               items={sampleItems}
               ratings={sampleRatings}

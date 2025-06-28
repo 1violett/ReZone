@@ -29,9 +29,9 @@ If you believe your copyrighted work has been copied in a way that constitutes c
 ### Copyright Agent Contact
 
 **ReZone Analytics Copyright Agent**  
-Email: dmca@rezone-analytics.com  
-Address: 123 Innovation Drive, Tech City, TC 12345  
-Phone: +1 (555) 123-4567
+Email: [YOUR-DMCA-EMAIL@example.com]  
+Address: [YOUR-ADDRESS]  
+Phone: [YOUR-PHONE-NUMBER]
 
 ### Counter-Notification
 

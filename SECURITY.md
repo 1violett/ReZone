@@ -43,7 +43,7 @@ This software contains:
 
 **DO NOT** create public GitHub issues for security vulnerabilities.
 
-Instead, please email: **security@rezone-analytics.com**
+Instead, please email: **[YOUR-SECURITY-EMAIL@example.com]**
 
 Include:
 - Description of the potential vulnerability
@@ -72,9 +72,9 @@ If you have legitimate access to this software:
 
 ### Contact Information
 
-**Legal Department**: legal@rezone-analytics.com  
-**Security Team**: security@rezone-analytics.com  
-**General Inquiries**: contact@rezone-analytics.com
+**Legal Department**: [YOUR-LEGAL-EMAIL@example.com]  
+**Security Team**: [YOUR-SECURITY-EMAIL@example.com]  
+**General Inquiries**: [YOUR-EMAIL@example.com]
 
 ---
 

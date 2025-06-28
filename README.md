@@ -25,7 +25,7 @@ This software contains **proprietary algorithms** and **trade secrets** owned by
 - ❌ **No commercial use without license**
 - ✅ **Demo viewing only**
 
-For licensing inquiries: **legal@rezone-analytics.com**
+For licensing inquiries: **[YOUR-EMAIL@example.com]**
 
 ## ✨ Features
 
@@ -236,7 +236,7 @@ This software is **NOT open source**. All rights reserved.
 - **Evaluation License**: 30-day trial
 - **Custom License**: Tailored agreements
 
-Contact **legal@rezone-analytics.com** for licensing.
+Contact **[YOUR-EMAIL@example.com]** for licensing.
 
 ## 🔍 Monitoring & Compliance
 
@@ -255,22 +255,22 @@ Violations will result in:
 ## 📞 Contact & Support
 
 ### Business Inquiries
-- **Email**: contact@rezone-analytics.com
-- **Phone**: +1 (555) 123-4567
-- **Website**: https://rezone-analytics.com
+- **Email**: [YOUR-EMAIL@example.com]
+- **Phone**: [YOUR-PHONE-NUMBER]
+- **Website**: [YOUR-WEBSITE]
 
 ### Legal Department
-- **Email**: legal@rezone-analytics.com
-- **Address**: 123 Innovation Drive, Tech City, TC 12345
+- **Email**: [YOUR-LEGAL-EMAIL@example.com]
+- **Address**: [YOUR-ADDRESS]
 
 ### Security Issues
-- **Email**: security@rezone-analytics.com
+- **Email**: [YOUR-SECURITY-EMAIL@example.com]
 - **PGP Key**: Available on request
 
 ### Technical Support
-- **Email**: support@rezone-analytics.com
+- **Email**: [YOUR-SUPPORT-EMAIL@example.com]
 - **Documentation**: [Wiki](https://github.com/1violett/sb1-1am4lujt/wiki)
-- **Status Page**: https://status.rezone-analytics.com
+- **Status Page**: [YOUR-STATUS-PAGE]
 
 ---
 

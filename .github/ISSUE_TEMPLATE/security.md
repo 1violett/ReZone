@@ -11,7 +11,7 @@ assignees: security-team
 
 **DO NOT** submit security issues through public GitHub issues!
 
-For security vulnerabilities, please email: **security@rezone-analytics.com**
+For security vulnerabilities, please email: **[YOUR-SECURITY-EMAIL@example.com]**
 
 This ensures:
 - Confidential handling of sensitive information
@@ -30,7 +30,7 @@ This ensures:
 This software is proprietary. Unauthorized security testing or vulnerability research may violate our terms of service and applicable laws.
 
 **Authorized Security Research:**
-If you're conducting authorized security research, please contact our legal team first at legal@rezone-analytics.com to establish proper agreements.
+If you're conducting authorized security research, please contact our legal team first at [YOUR-LEGAL-EMAIL@example.com] to establish proper agreements.
 
 ---
 

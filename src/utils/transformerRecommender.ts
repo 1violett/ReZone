@@ -285,7 +285,7 @@ export class TransformerRecommender {
         if (item.price < 50) priceRanges.under_50++;
         else if (item.price < 100) priceRanges['50_100']++;
         else if (item.price < 200) priceRanges['100_200']++;
-        else priceRanges.200_plus++;
+        else priceRanges['200_plus']++;
       }
     });
 

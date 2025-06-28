@@ -26,12 +26,6 @@ If you believe your copyrighted work has been copied in a way that constitutes c
 5. **A statement** that the information is accurate and you are authorized to act
 6. **Your physical or electronic signature**
 
-### Copyright Agent Contact
-
-**ReZone Analytics Copyright Agent**  
-Email: [YOUR-DMCA-EMAIL@example.com]  
-Address: [YOUR-ADDRESS]  
-Phone: [YOUR-PHONE-NUMBER]
 
 ### Counter-Notification
 

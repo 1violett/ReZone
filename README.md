@@ -2,16 +2,30 @@
 
 **Advanced GeoAI & Transformer-Powered Recommendation System**
 
+⚠️ **PROPRIETARY SOFTWARE** - All rights reserved. See [LICENSE](LICENSE) for terms.
+
 A cutting-edge analytics platform that combines geospatial intelligence, AI-powered recommendations, and comprehensive business analytics to provide actionable insights for location-based decision making.
 
 ![ReZone Analytics](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 ![React](https://img.shields.io/badge/React-18.3.1-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.1-blue)
+![License](https://img.shields.io/badge/License-Proprietary-red)
 
 ## 🚀 Live Demo
 
 **[View Live Application](https://rezone.netlify.app)**
+
+## 🔒 Legal Notice
+
+This software contains **proprietary algorithms** and **trade secrets** owned by ReZone Analytics. 
+
+- ❌ **No copying, modification, or redistribution**
+- ❌ **No reverse engineering or decompilation** 
+- ❌ **No commercial use without license**
+- ✅ **Demo viewing only**
+
+For licensing inquiries: **legal@rezone-analytics.com**
 
 ## ✨ Features
 
@@ -80,11 +94,13 @@ src/
 │   ├── AI/              # AI recommendations
 │   ├── Analytics/       # Business intelligence
 │   └── Charts/          # Data visualizations
-├── utils/               # Core algorithms
+├── utils/               # Core algorithms (PROTECTED)
 │   ├── geoAI.ts         # Geospatial engine
 │   ├── transformerRecommender.ts  # AI models
 │   ├── arimaForecasting.ts        # Time series
-│   └── collaborativeFiltering.ts  # Recommendations
+│   ├── collaborativeFiltering.ts  # Recommendations
+│   ├── protection.ts    # IP protection system
+│   └── obfuscation.ts   # Code protection
 ├── data/                # Sample datasets
 │   ├── geoSampleData.ts # Regional data
 │   └── sampleData.ts    # User/item data
@@ -94,40 +110,38 @@ src/
     └── index.ts         # Core types
 ```
 
-## 🚀 Quick Start
+## 🔐 Security Features
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
+### Intellectual Property Protection
+- **Anti-tampering detection** - Monitors code integrity
+- **Developer tools blocking** - Prevents inspection
+- **Code obfuscation** - Protects sensitive algorithms
+- **Runtime validation** - Ensures authentic execution
+- **Watermarking system** - Tracks usage and access
 
-### Installation
+### Legal Safeguards
+- **Proprietary license** - Restricts unauthorized use
+- **Trade secret protection** - Covers core algorithms
+- **Copyright notices** - Embedded throughout codebase
+- **Usage monitoring** - Logs all access attempts
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/1violett/sb1-1am4lujt.git
-   cd sb1-1am4lujt
-   ```
+## 🚀 Demo Access
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   ```
-   http://localhost:5173
-   ```
-
-### Build for Production
+### View Only Access
 ```bash
-npm run build
-npm run preview
+# Visit the live demo
+https://rezone.netlify.app
 ```
+
+### For Authorized Users Only
+```bash
+git clone https://github.com/1violett/sb1-1am4lujt.git
+cd sb1-1am4lujt
+npm install
+npm run dev
+```
+
+⚠️ **Warning**: Unauthorized cloning or modification is prohibited and monitored.
 
 ## 📖 Usage Guide
 
@@ -199,53 +213,71 @@ The application includes comprehensive sample datasets:
 - Price ranges and category classifications
 - User ratings and review data
 
-## 🔧 Configuration
+## ⚖️ Legal & Licensing
 
-### Environment Variables
-```env
-VITE_HUGGINGFACE_API_KEY=your_api_key_here
-VITE_MAPBOX_TOKEN=your_mapbox_token
-```
+### Proprietary License
+This software is **NOT open source**. All rights reserved.
 
-### ARIMA Parameters
-- **p**: Autoregressive order (1-5)
-- **d**: Differencing order (0-3)  
-- **q**: Moving average order (1-5)
+### What You CAN Do:
+- ✅ View the live demo
+- ✅ Read the documentation
+- ✅ Contact us for licensing
 
-### AI Model Settings
-- **Model**: sentence-transformers/all-MiniLM-L6-v2
-- **Embedding Size**: 384 dimensions
-- **Similarity Threshold**: 0.7
-- **Confidence Threshold**: 0.6
+### What You CANNOT Do:
+- ❌ Copy any code or algorithms
+- ❌ Modify or create derivative works
+- ❌ Use for commercial purposes
+- ❌ Reverse engineer the software
+- ❌ Remove copyright notices
 
-## 🤝 Contributing
+### Licensing Options
+- **Enterprise License**: Full commercial use
+- **Academic License**: Research and education
+- **Evaluation License**: 30-day trial
+- **Custom License**: Tailored agreements
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Contact **legal@rezone-analytics.com** for licensing.
 
-## 📝 License
+## 🔍 Monitoring & Compliance
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+All access to this software is monitored and logged:
+- IP addresses and user agents
+- Access times and duration
+- Actions performed
+- Security events
 
-## 🙏 Acknowledgments
+Violations will result in:
+- Immediate access termination
+- Legal action for infringement
+- Monetary damages
+- Criminal prosecution if applicable
 
-- **Hugging Face** for transformer models
-- **OpenStreetMap** for geographic data
-- **Recharts** for visualization components
-- **Tailwind CSS** for styling framework
+## 📞 Contact & Support
 
-## 📞 Support
+### Business Inquiries
+- **Email**: contact@rezone-analytics.com
+- **Phone**: +1 (555) 123-4567
+- **Website**: https://rezone-analytics.com
 
-For questions, issues, or feature requests:
-- Create an [Issue](https://github.com/1violett/sb1-1am4lujt/issues)
-- Email: support@rezone-analytics.com
-- Documentation: [Wiki](https://github.com/1violett/sb1-1am4lujt/wiki)
+### Legal Department
+- **Email**: legal@rezone-analytics.com
+- **Address**: 123 Innovation Drive, Tech City, TC 12345
+
+### Security Issues
+- **Email**: security@rezone-analytics.com
+- **PGP Key**: Available on request
+
+### Technical Support
+- **Email**: support@rezone-analytics.com
+- **Documentation**: [Wiki](https://github.com/1violett/sb1-1am4lujt/wiki)
+- **Status Page**: https://status.rezone-analytics.com
 
 ---
 
-**Built with ❤️ for the future of location intelligence**
+**© 2024 ReZone Analytics. All rights reserved.**
 
-![Footer](https://img.shields.io/badge/Made%20with-React%20%7C%20TypeScript%20%7C%20AI-blue)
+*This software contains proprietary algorithms and trade secrets. Unauthorized use is prohibited and will be prosecuted to the full extent of the law.*
+
+![Footer](https://img.shields.io/badge/Protected%20by-IP%20Law-red)
+![Monitoring](https://img.shields.io/badge/Access-Monitored-orange)
+![Legal](https://img.shields.io/badge/Legal%20Action-Enforced-red)

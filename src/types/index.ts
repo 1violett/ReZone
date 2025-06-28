@@ -9,7 +9,7 @@ export interface User {
   };
 }
 
-export interface Product {
+export interface Item {
   id: string;
   name: string;
   category: string;
@@ -26,19 +26,16 @@ export interface Product {
 
 export interface Rating {
   userId: string;
-  productId: string;
+  itemId: string;
   rating: number;
   timestamp: number;
   review?: string;
 }
 
 export interface Recommendation {
-  productId: string;
+  itemId: string;
   score: number;
-  confidence: number;
   reason: string;
-  algorithm: 'collaborative' | 'content' | 'hybrid' | 'popularity';
-  explanation?: string;
 }
 
 export interface RecommendationConfig {
